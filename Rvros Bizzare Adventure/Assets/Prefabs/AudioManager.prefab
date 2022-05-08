@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7242294169574492494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7242294169574492492}
+  - component: {fileID: 7242294169574492493}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7242294169574492492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7242294169574492494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.032755733, y: 2.3050818, z: -139.6012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7242294169574492493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7242294169574492494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8002c5d6476a05b4f8851ae3633b5bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerAttack
+    clip: {fileID: 8300000, guid: cf1097a3ba70b6745b4a8540761d6913, type: 3}
+    pitch: 1.21
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: SlimeHurt
+    clip: {fileID: 8300000, guid: ca877f7cec8e1a740a7c44e5f11c4710, type: 3}
+    pitch: 1.21
+    volume: 0.548
+    loop: 0
+    source: {fileID: 0}
+  - name: SlimeDie
+    clip: {fileID: 8300000, guid: ea09b09bbf6f6564e9583ee0f01b878a, type: 3}
+    pitch: 1.21
+    volume: 0.566
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerRun
+    clip: {fileID: 8300000, guid: e942add57e723fe47b4483195c9902dd, type: 3}
+    pitch: 1.04
+    volume: 0.321
+    loop: 1
+    source: {fileID: 0}
+  - name: MenuTheme
+    clip: {fileID: 8300000, guid: 8b90cf9808ce87244beeb6506e1e8b14, type: 3}
+    pitch: 1.09
+    volume: 0.63
+    loop: 1
+    source: {fileID: 0}
