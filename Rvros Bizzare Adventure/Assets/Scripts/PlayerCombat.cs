@@ -117,22 +117,23 @@ public class PlayerCombat : MonoBehaviour
     }
 
     public void Takedmg(int dmg){
-
+        if(iframemoment == false){
         if(currenthp <= 0){
         Die();
         }
-
-        if(iframemoment == false){
+        
         currenthp -= dmg;
         //hpbar interaction
 
         hpbar.SetHp(currenthp);
         //hurt animation
         ani.SetTrigger("Gettinghit");
+        FindObjectOfType<AudioManager>().Play("Playerhurt");
+
         LastAtk();
 
         StartCoroutine(Invulnerability());
-        }
+    }
     }
 
     public void Die(){

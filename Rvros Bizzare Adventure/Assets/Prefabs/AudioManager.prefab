@@ -74,3 +74,21 @@ MonoBehaviour:
     volume: 0.63
     loop: 1
     source: {fileID: 0}
+  - name: ChestPickUp
+    clip: {fileID: 8300000, guid: 5d220c0e217b77b49a117ef231499d68, type: 3}
+    pitch: 1.09
+    volume: 0.39
+    loop: 0
+    source: {fileID: 0}
+  - name: HealthPickUp
+    clip: {fileID: 8300000, guid: e9cdab6e582c652448bcc7edb127fa10, type: 3}
+    pitch: 1.09
+    volume: 0.41
+    loop: 0
+    source: {fileID: 0}
+  - name: Playerhurt
+    clip: {fileID: 8300000, guid: 62a423eba9349104a96097f57ff7d98f, type: 3}
+    pitch: 1.09
+    volume: 0.34
+    loop: 0
+    source: {fileID: 0}

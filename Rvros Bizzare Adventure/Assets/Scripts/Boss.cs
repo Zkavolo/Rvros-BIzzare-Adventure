@@ -28,6 +28,9 @@ public class Boss : MonoBehaviour
     public int currenthp;
     public HPbar hpbar;
 
+    [Header("Public objects")]
+    public GameObject Bosstrigger; 
+
    void Update(){
     Invoke("ChasePlayer", 1.10f);
    }
@@ -98,6 +101,7 @@ public class Boss : MonoBehaviour
 
     public void Takedmg(int dmg){
         currenthp -= dmg;
+        FindObjectOfType<AudioManager>().Play("SlimeHurt");
 
         hpbar.SetHp(currenthp);
         if(currenthp <= 0){
@@ -114,5 +118,6 @@ public class Boss : MonoBehaviour
         //disable enemy function
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
+        Bosstrigger.SetActive(false);
     }
 }

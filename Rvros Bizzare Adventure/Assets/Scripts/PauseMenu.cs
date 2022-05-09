@@ -11,6 +11,12 @@ public class PauseMenu : MonoBehaviour
     [Header("Pause Canvas")]
     public GameObject pauseMenuUI;
 
+    [Header("Validation Canvas")]
+    public GameObject validationUI;
+
+    [Header("Win menu")]
+    public GameObject winMenuUI;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)){
@@ -42,5 +48,15 @@ public class PauseMenu : MonoBehaviour
 
     public void NextLevel(int next){
         SceneManager.LoadScene(next);
+    }
+
+    public void NextButton(){
+        validationUI.SetActive(true);
+        winMenuUI.SetActive(false);
+    }
+
+    public void No(){
+        validationUI.SetActive(false);
+        winMenuUI.SetActive(true);
     }
 }

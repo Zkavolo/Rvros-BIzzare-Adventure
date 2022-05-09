@@ -9,6 +9,7 @@ public class Healing : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         if(other.tag == "Player"){
             other.GetComponent<PlayerCombat>().Healing(Heal);
+            FindObjectOfType<AudioManager>().Play("HealthPickUp");
             Destroy(gameObject);
         }
     }

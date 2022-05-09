@@ -10,6 +10,7 @@ public class Chest : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other){
         if(other.tag == "Player"){
             scorecount.GetComponent<Score>().addScore(score_give);
+            FindObjectOfType<AudioManager>().Play("ChestPickUp");
             Destroy(gameObject);
         }
     }

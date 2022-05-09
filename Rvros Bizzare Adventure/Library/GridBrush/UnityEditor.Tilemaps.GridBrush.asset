@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Default Brush
   m_EditorClassIdentifier: 
   m_Cells:
-  - m_Tile: {fileID: 11400000, guid: 45f84a8d4333adf41967a2fd52490f38, type: 2}
+  - m_Tile: {fileID: 11400000, guid: d5806a63878feac44a309171846ca320, type: 2}
     m_Matrix:
       e00: 1
       e01: 0
