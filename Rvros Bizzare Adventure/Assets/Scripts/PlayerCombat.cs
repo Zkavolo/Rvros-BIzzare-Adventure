@@ -117,23 +117,22 @@ public class PlayerCombat : MonoBehaviour
     }
 
     public void Takedmg(int dmg){
-        if(currenthp > 0){
-            if(iframemoment == false){
-            currenthp -= dmg;
-            //hpbar interaction
 
-            hpbar.SetHp(currenthp);
-            //hurt animation
-            ani.SetTrigger("Gettinghit");
-            LastAtk();
-
-            StartCoroutine(Invulnerability());
+        if(currenthp <= 0){
+        Die();
         }
 
-        else{
-            Die();
+        if(iframemoment == false){
+        currenthp -= dmg;
+        //hpbar interaction
+
+        hpbar.SetHp(currenthp);
+        //hurt animation
+        ani.SetTrigger("Gettinghit");
+        LastAtk();
+
+        StartCoroutine(Invulnerability());
         }
-    }
     }
 
     public void Die(){
@@ -141,7 +140,7 @@ public class PlayerCombat : MonoBehaviour
         ani.SetBool("Die", true);
 
         //disable player function
-        Invoke("DisablePlayer", 1f);
+        DisablePlayer();
 
          //Activates Player Dead screen
         deadUI.SetActive(true);
