@@ -925,9 +925,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1964317955531210620, guid: d4d1949d7ed847e4eaea2bc9b1ab0613, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964317955531210620, guid: d4d1949d7ed847e4eaea2bc9b1ab0613, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 824019664}
+    - target: {fileID: 1964317955531210620, guid: d4d1949d7ed847e4eaea2bc9b1ab0613, type: 3}
+      propertyPath: atkrange
+      value: 1.68
+      objectReference: {fileID: 0}
     - target: {fileID: 1964317955531210620, guid: d4d1949d7ed847e4eaea2bc9b1ab0613, type: 3}
       propertyPath: Bosstrigger
       value: 
@@ -938,7 +946,7 @@ PrefabInstance:
       objectReference: {fileID: 824019657}
     - target: {fileID: 1964317955531210620, guid: d4d1949d7ed847e4eaea2bc9b1ab0613, type: 3}
       propertyPath: RangeforAttacking
-      value: 0.7
+      value: 1.73
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d1949d7ed847e4eaea2bc9b1ab0613, type: 3}

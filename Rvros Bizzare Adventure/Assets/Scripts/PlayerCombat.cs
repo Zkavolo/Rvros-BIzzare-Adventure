@@ -118,10 +118,6 @@ public class PlayerCombat : MonoBehaviour
 
     public void Takedmg(int dmg){
         if(iframemoment == false){
-        if(currenthp <= 0){
-        Die();
-        }
-        
         currenthp -= dmg;
         //hpbar interaction
 
@@ -133,7 +129,10 @@ public class PlayerCombat : MonoBehaviour
         LastAtk();
 
         StartCoroutine(Invulnerability());
-    }
+        }
+        if(currenthp <= 0){
+        Die();
+        }
     }
 
     public void Die(){
