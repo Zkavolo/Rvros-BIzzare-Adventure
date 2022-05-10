@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class BGM_Manager : MonoBehaviour
 {
+    public string MenuSong;
+
     void Start(){
-        FindObjectOfType<AudioManager>().Play("MenuTheme");
+        FindObjectOfType<AudioManager>().Play(MenuSong);
     }
 }

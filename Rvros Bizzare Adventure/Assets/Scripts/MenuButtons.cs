@@ -8,5 +8,6 @@ public class MenuButtons : MonoBehaviour
 {
     public void openScene(int scene){
         SceneManager.LoadScene(scene);
+        FindObjectOfType<AudioManager>().Play("MenuButton");
     }
 }
