@@ -8,7 +8,7 @@ public class PlayerMoment : MonoBehaviour
     [SerializeField] private Rigidbody2D player;
     [SerializeField] private Animator ani;
     [SerializeField] private GameObject currentPlatform;
-    [SerializeField] private CapsuleCollider2D playerCollider;
+    [SerializeField] private BoxCollider2D playerCollider;
     [SerializeField] private Vector3 playerTransform;
     public PlayerCombat checkatk;
 

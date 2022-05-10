@@ -264,6 +264,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3932619480389121952, guid: f8de6fb2bb216a843821737194837a38, type: 3}
+      propertyPath: m_Size.x
+      value: 2.2182274
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932619480389121952, guid: f8de6fb2bb216a843821737194837a38, type: 3}
+      propertyPath: m_Size.y
+      value: 0.10406542
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932619480389121952, guid: f8de6fb2bb216a843821737194837a38, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.04907036
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932619480389121952, guid: f8de6fb2bb216a843821737194837a38, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.13882476
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990274468627902131, guid: f8de6fb2bb216a843821737194837a38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990274468627902131, guid: f8de6fb2bb216a843821737194837a38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436807774175857536, guid: f8de6fb2bb216a843821737194837a38, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 323209393}
     - target: {fileID: 7635700919672603156, guid: f8de6fb2bb216a843821737194837a38, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.17489211
@@ -1344,9 +1372,9 @@ GameObject:
   - component: {fileID: 323209399}
   - component: {fileID: 323209398}
   - component: {fileID: 323209397}
-  - component: {fileID: 323209396}
   - component: {fileID: 323209395}
   - component: {fileID: 323209394}
+  - component: {fileID: 323209396}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -1408,8 +1436,8 @@ MonoBehaviour:
   velocity_jumping: 10
   Grounded: 0
   Falling: 0
---- !u!70 &323209396
-CapsuleCollider2D:
+--- !u!61 &323209396
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1417,13 +1445,23 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 323209393}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 0e511f0300c866947afeb0512ad8da46, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0048369765, y: -0.04675733}
-  m_Size: {x: 0.1710863, y: 0.30329674}
-  m_Direction: 0
+  m_Offset: {x: -0.0026526675, y: -0.037138104}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.37}
+    newSize: {x: 0.5, y: 0.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16363524, y: 0.28723502}
+  m_EdgeRadius: 0
 --- !u!50 &323209397
 Rigidbody2D:
   serializedVersion: 4
@@ -12469,7 +12507,7 @@ PrefabInstance:
     - target: {fileID: 7072383492184570112, guid: 670e1cbf2c3b5b94cb17c33406db3485, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 323209393}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 670e1cbf2c3b5b94cb17c33406db3485, type: 3}
 --- !u!1 &1640101588
