@@ -98,3 +98,15 @@ MonoBehaviour:
     volume: 0.29
     loop: 0
     source: {fileID: 0}
+  - name: PlayerJump
+    clip: {fileID: 8300000, guid: c6972de759fd72145990d8b3c5b54676, type: 3}
+    pitch: 1.09
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelTheme
+    clip: {fileID: 8300000, guid: 4bf6c9fefef96744ea316b3cf89a8c87, type: 3}
+    pitch: 1.09
+    volume: 0.62
+    loop: 0
+    source: {fileID: 0}

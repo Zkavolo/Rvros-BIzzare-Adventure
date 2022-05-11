@@ -72,6 +72,7 @@ public class PlayerMoment : MonoBehaviour
         //condition for player only jumping once
        if(Input.GetKeyDown(KeyCode.Space) && Grounded){
         ani.SetTrigger("Jump");
+        FindObjectOfType<AudioManager>().Play("PlayerJump");
         player.velocity = new Vector2(player.velocity.x, velocity_jumping);
         Grounded = false;
         checkatk.LastAtk();
