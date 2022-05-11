@@ -706,7 +706,7 @@ RectTransform:
   - {fileID: 1418269384}
   - {fileID: 1985819344}
   m_Father: {fileID: 1798692853}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1083,8 +1083,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1808076856}
   - {fileID: 1389344090}
+  - {fileID: 1808076856}
   - {fileID: 1990172040}
   - {fileID: 492568976}
   - {fileID: 850389201}
@@ -1380,7 +1380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 430793934444996732, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 430793934444996732, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1391,12 +1391,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 138750309}
     - target: {fileID: 430793934444996732, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 430793934444996732, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: openScene
       objectReference: {fileID: 0}
     - target: {fileID: 430793934444996732, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MenuButtons, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 430793934444996732, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 430793934444996732, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1412,7 +1420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 430793934444996733, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 430793934444996733, guid: 47231381a7285cd4dab86e208bb3319a, type: 3}
       propertyPath: m_AnchorMax.x
