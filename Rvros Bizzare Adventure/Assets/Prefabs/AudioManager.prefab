@@ -71,7 +71,7 @@ MonoBehaviour:
   - name: MenuTheme
     clip: {fileID: 8300000, guid: 8b90cf9808ce87244beeb6506e1e8b14, type: 3}
     pitch: 1.09
-    volume: 0.63
+    volume: 0.36
     loop: 1
     source: {fileID: 0}
   - name: ChestPickUp
@@ -83,7 +83,7 @@ MonoBehaviour:
   - name: HealthPickUp
     clip: {fileID: 8300000, guid: e9cdab6e582c652448bcc7edb127fa10, type: 3}
     pitch: 1.09
-    volume: 0.41
+    volume: 0.33
     loop: 0
     source: {fileID: 0}
   - name: Playerhurt
@@ -101,12 +101,12 @@ MonoBehaviour:
   - name: PlayerJump
     clip: {fileID: 8300000, guid: c6972de759fd72145990d8b3c5b54676, type: 3}
     pitch: 1.09
-    volume: 0.2
+    volume: 0.33
     loop: 0
     source: {fileID: 0}
   - name: LevelTheme
     clip: {fileID: 8300000, guid: 4bf6c9fefef96744ea316b3cf89a8c87, type: 3}
     pitch: 1.09
-    volume: 0.62
-    loop: 0
+    volume: 0.38
+    loop: 1
     source: {fileID: 0}

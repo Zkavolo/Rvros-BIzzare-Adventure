@@ -14,6 +14,9 @@ public class PauseMenu : MonoBehaviour
     [Header("Validation Canvas")]
     public GameObject validationUI;
 
+    [Header("Settings Menu")]
+    public GameObject settingsUI;
+
     [Header("Win menu")]
     public GameObject winMenuUI;
 
@@ -58,5 +61,15 @@ public class PauseMenu : MonoBehaviour
     public void No(){
         validationUI.SetActive(false);
         winMenuUI.SetActive(true);
+    }
+
+    public void OpenSettings(){
+        validationUI.SetActive(false);
+        settingsUI.SetActive(true);
+    }
+
+    public void CloseSettings(){
+        validationUI.SetActive(true);
+        settingsUI.SetActive(false);
     }
 }
