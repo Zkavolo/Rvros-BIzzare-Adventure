@@ -47,25 +47,25 @@ MonoBehaviour:
   - name: PlayerAttack
     clip: {fileID: 8300000, guid: cf1097a3ba70b6745b4a8540761d6913, type: 3}
     pitch: 1.21
-    volume: 0.5
+    volume: 0.3
     loop: 0
     source: {fileID: 0}
   - name: SlimeHurt
     clip: {fileID: 8300000, guid: ca877f7cec8e1a740a7c44e5f11c4710, type: 3}
     pitch: 1.21
-    volume: 0.548
+    volume: 0.348
     loop: 0
     source: {fileID: 0}
   - name: SlimeDie
     clip: {fileID: 8300000, guid: ea09b09bbf6f6564e9583ee0f01b878a, type: 3}
     pitch: 1.21
-    volume: 0.566
+    volume: 0.366
     loop: 0
     source: {fileID: 0}
   - name: PlayerRun
     clip: {fileID: 8300000, guid: e942add57e723fe47b4483195c9902dd, type: 3}
     pitch: 1.04
-    volume: 0.321
+    volume: 0.221
     loop: 1
     source: {fileID: 0}
   - name: MenuTheme
@@ -77,19 +77,19 @@ MonoBehaviour:
   - name: ChestPickUp
     clip: {fileID: 8300000, guid: 5d220c0e217b77b49a117ef231499d68, type: 3}
     pitch: 1.09
-    volume: 0.39
+    volume: 0.29
     loop: 0
     source: {fileID: 0}
   - name: HealthPickUp
     clip: {fileID: 8300000, guid: e9cdab6e582c652448bcc7edb127fa10, type: 3}
     pitch: 1.09
-    volume: 0.33
+    volume: 0.23
     loop: 0
     source: {fileID: 0}
   - name: Playerhurt
     clip: {fileID: 8300000, guid: 62a423eba9349104a96097f57ff7d98f, type: 3}
     pitch: 1.09
-    volume: 0.34
+    volume: 0.24
     loop: 0
     source: {fileID: 0}
   - name: MenuButton
@@ -101,12 +101,12 @@ MonoBehaviour:
   - name: PlayerJump
     clip: {fileID: 8300000, guid: c6972de759fd72145990d8b3c5b54676, type: 3}
     pitch: 1.09
-    volume: 0.33
+    volume: 0.23
     loop: 0
     source: {fileID: 0}
   - name: LevelTheme
     clip: {fileID: 8300000, guid: 4bf6c9fefef96744ea316b3cf89a8c87, type: 3}
     pitch: 1.09
-    volume: 0.38
+    volume: 0.28
     loop: 1
     source: {fileID: 0}
